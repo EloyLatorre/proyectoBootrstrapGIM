@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans&family=Rubik:ital@1&display=swap');
+
+:root {
+    --color-principal: rgb(250, 153, 57);
+    --color-fondo: #F8DCBF;
+    --color-secundario: rgb(0, 31, 61);
+    --color-tercero: rgb(0, 0, 0);
+    --fuente-menus: 'Rubik', sans-serif;
+    --fuente-headings: 'Noto Sans', sans-serif;
+    --fuente-parrafos: 'Open Sans', sans-serif;
+
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+body {
+  font-family: var(--fuente-parrafos);
+  background-color: var(--color-fondo);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--fuente-headings);
+  color: var(--color-secundario);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+
+.menu {
+  font-family: var(--fuente-menus);
+  font-size: 22px;
+}
+
+.navbar {
+  background-color: var(--color-fondo)!important;
+}
+
+.nav-item {
+  color: var(--color-secundario);
+}
+
+.provincia {
+  background-color: var(--color-secundario) !important;
+  font-size: 19px;
+}
+
+footer {
+  background-color: var(--color-secundario);
+}
+
+a {
+
+  text-decoration: none;
+}
+
+a:hover {
+
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.galeria {
+  background-color: var(--color-secundario);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fas {
+  color: var(--color-principal);
+}
+
+.gym-form {
+  background-color: var(--color-secundario);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
